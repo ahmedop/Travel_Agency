@@ -1,0 +1,68 @@
+/* Start Defining Variables */
+:root {
+    --main-color: #FFF;
+}
+
+/* End Defining Variables */
+
+
+/* Start Global rules */
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: ;
+    padding: 0px;
+    margin: 0px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+/* small screens */
+
+@media (min-width:768px) {
+    .container {
+        width: 750px;
+    }
+
+}
+
+/* medium screens */
+@media (min-width:992px) {
+    .container {
+        width: 970px;
+    }
+
+}
+
+/* large screens */
+@media (min-width:1200px) {
+    .container {
+        width: 1170px;
+    }
+
+}
+
+/* End Global rules */
